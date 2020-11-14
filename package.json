@@ -117,7 +117,8 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-hot-loader": "^4.12.21",
-    "ress": "^2.0.4"
+    "ress": "^2.0.4",
+    "three": "^0.118.3"
   },
   "browserslist": [
     "last 2 versions",

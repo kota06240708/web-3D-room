@@ -3,6 +3,7 @@ declare var env: string;
 interface Document {
   createStyleSheet: any;
   cssText: string;
+  attachEvent: any;
 }
 
 interface EventTarget {
@@ -15,5 +16,10 @@ interface EventTarget {
 interface Element {
   style: any;
   parentNode: any;
+  attachEvent: any;
   nextElementSibling: any;
+}
+
+interface HTMLElement {
+  attachEvent: any;
 }
